@@ -57,6 +57,7 @@ const Contact = () => {
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+          {/* Form start */}
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
@@ -81,6 +82,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name='username'
                   />
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -95,6 +97,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name='phonenumber'
                   />
                 </div>
               </div>
@@ -110,6 +113,7 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="email"
+                  name='email'
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -124,6 +128,7 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="text"
+                  name='subject'
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -138,6 +143,7 @@ const Contact = () => {
                   } contactTextArea`}
                   cols="30"
                   rows="8"
+                  name='message'
                 ></textarea>
               </div>
               <div className="w-full">

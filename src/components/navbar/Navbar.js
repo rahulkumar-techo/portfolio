@@ -10,9 +10,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
+      {sublogo}
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -42,14 +40,7 @@ const Navbar = () => {
         {showMenu && (
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
-              <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
-                </p>
-              </div>
+            {sublogo}
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
                   <li
@@ -99,5 +90,15 @@ const Navbar = () => {
     </div>
   );
 }
+
+const sublogo =(
+  <div className=' flex sm:gap-3 gap-2'>
+        <img src={logo} alt="logo" width={40} />
+        <div className=''>
+          <p> Rahul kumar</p>
+          <small>A software devloper</small>
+        </div>
+      </div>
+)
 
 export default Navbar

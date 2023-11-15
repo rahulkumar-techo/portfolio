@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import React from "react";
+import {  FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -16,21 +16,25 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          As a developer, I dive into lines of code, sculpting digital
+          landscapes. Debugging challenges, crafting solutions—I thrive in the
+          realm where innovation meets precision, shaping tomorrow's technology
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91-9142684***</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">rahulkumar7250883289@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+          <a href="https://www.instagram.com/p/Cm0CuY7y7Gr/?igshid=M2MyMzgzODVlNw==">
+          <FaInstagram />
+          </a>
           </span>
           <span className="bannerIcon">
             <FaTwitter />
@@ -42,6 +46,6 @@ const ContactLeft = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;

@@ -12,25 +12,25 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
+            title="Btech in Computer Science"
+            subTitle="RTCIT ranchi "
             result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Embarking on a B.Tech journey—unveiling the realm of technology, problem-solving, and innovation. A transformative experience awaits, paving the future ahead."
           />
           <ResumeCard
             title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
+            subTitle="RTCIT anandi "
             result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Embark on the fascinating journey of AS Science & Information. Uncover the intricacies of data, algorithms, and scientific exploration, expanding knowledge and possibilities"
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
+            title="Secondary Education"
+            subTitle="Ram tahal chaudhay P.H.E.D buti "
             result="5.00/5"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
@@ -40,27 +40,27 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2025</p>
+          <h2 className="text-3xl md:text-4xl font-bold"> Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="As a Instructor"
+            subTitle="TCS "
+            result="Banglore"
+            des="Empower minds with expertise. As an instructor, navigate the path of knowledge, inspire growth, and shape futures through education's transformative force"
           />
           <ResumeCard
             title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            subTitle="Android Developer Team "
+            result="Noida"
+            des="Explore the digital realm seamlessly with our web and app solutions. Intuitive design, functionality, and accessibility redefine your online experience"
           />
           <ResumeCard
             title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            subTitle=" Vista"
+            result="Ranchi"
+            des="Frontend magic unveiled: Elevate user experiences with responsive design, sleek interfaces, and seamless interactions. Transform visions into captivating digital landscapes"
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 const Media = () => {
   return (
@@ -10,7 +10,9 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+            <a href="https://www.instagram.com/p/Cm0CuY7y7Gr/?igshid=M2MyMzgzODVlNw==">
+          <FaInstagram />
+          </a>
             </span>
             <span className="bannerIcon">
               <FaTwitter />
